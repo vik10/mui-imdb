@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+.header label {
+  color: white !important;
+}
+.header fieldset {
+  border-color: white !important;
+}
+.styleBox {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.9) 20px,
+    rgba(0, 0, 0, 0.7) 6px
+  );
+}
+#prodCont {
+  padding-top: 8em;
+  padding-bottom: 8em;
+  background-color: #33001a;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.9) 20px,
+    rgba(0, 0, 0, 0.7) 6px
+  );
+}
+#dropdownMenu {
+  transition: all 0.7s;
+  transform: translateX(-100%);
+}
+.showTrnsform {
+  transform: translateX(0) !important;
+}
+/* .show #registerPage{
+  z-index: 3;
+  opacity: 1;
+} */
+#outlined-adornment-amount {
+  color: white;
+}
+
+@media (min-width: 800px) {
+  .Card {
+    flex-basis: 13%;
+  }
+  .posterPic {
+    height: 200px;
+  }
+  .posterCont {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #prodCont {
+    padding-top: 12em;
+    padding-bottom: 12em;
+  }
+}
